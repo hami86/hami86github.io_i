@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aritmatika dasar</title>
+    <link rel="stylesheet" href="/css/style22.css">
+   
+</head>
+<body>
+    <table cellspacing = "10">
+        <tr>
+            <td >Angka 1</td>
+            <td>:</td>
+            <td><input id="a1" type="text" placeholder="input angka 1"></td>
+        </tr>
+
+        <tr>
+            <td >Angka 2</td>
+            <td>:</td>
+            <td><input id="a2" type="text" placeholder="input angka 2"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td>
+                <button  onclick="tambah()"> + </button>
+                <button  onclick="kurang()"> - </button>
+                <button  onclick="kali()"> *</button>
+                <button  onclick="bagi()"> / </button>
+                <button  onclick="sisa_bagi()"> Sisa Bagi </button>
+                <button  onclick="reset()"> Reset</button>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3"><hr></td>
+        </tr>
+        <tr>
+            <td > hasil</td>
+            <td></td>
+            <td align="center">
+                <label for="hasil" id="hasil">0</label>
+            </td>
+        </tr>
+    </table>
+
+    <script src="js/aritmatika.js"></script>
+
+</body>
+</html>
